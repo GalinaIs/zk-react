@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import UserContainer from '../containers/UserContainer'
 import PageContainer from '../containers/PageContainer'
+import ZkTree from './tree/Tree'
 
 import './App.css'
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="app">
         <PageContainer />
         <UserContainer />
+        <ZkTree />
       </div>
     )
   }
